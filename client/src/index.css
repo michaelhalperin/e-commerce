@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+body {
+  overflow: auto;
+}
+.App {
+  margin: 0 50px 0 50px;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.MuiListItemText-primary {
+  color: green;
+}
+.delete_product,
+.edit_product {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  margin-left: 5px;
+}
+.delete_product:hover,
+.edit_product:hover {
+  box-shadow: 0 10px 10px -5px #f1356d;
+}
+._container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+}
+.text_card {
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+.text_card:hover {
+  box-shadow: 0 10px 10px -5px #f1356d;
+}
+.card_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+.text_input,
+.text_button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 15px;
+}
+.text_input:hover,
+.number_input:hover {
+  box-shadow: 0 10px 10px -5px #f1356d;
+}
+.text_input:focus,
+.number_input:focus,
+.text_button {
+  box-shadow: 0 10px 10px -5px #f1356d;
+}
+.number_input {
+  width: 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  margin: 15px;
+}
+.number_input[type="number"]::-webkit-inner-spin-button,
+.number_input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.submit_button{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 15px;
+}
+.submit_button:hover , .submit_button:focus{
+  box-shadow: 0 10px 10px -5px #f1356d;
+}
